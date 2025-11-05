@@ -1,7 +1,16 @@
+import { Moon, Sun } from "lucide-react";
+
 function App() {
   return (
     <>
-      <h1 className="text-6xl text-red-500">REACT and Daisy</h1>
+      {/* Theme controller */}
+      <label className="swap swap-rotate">
+        <input type="checkbox" className="theme-controller" value="black" />
+
+        <Sun className="swap-on" />
+
+        <Moon className="swap-off" />
+      </label>
     </>
   );
 }
