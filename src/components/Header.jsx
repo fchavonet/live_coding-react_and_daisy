@@ -14,21 +14,21 @@ function Header() {
             </div>
 
             {/* Responsive menu */}
-            <ul className="menu menu-sm dropdown-content w-52 mt-3 p-2 rounded-box bg-base-100 z-50 shadow" tabIndex="-1">
+            <ul className="menu menu-sm dropdown-content w-52 mt-3 p-2 rounded-box rounded-lg border border-base-300 bg-base-100 z-50 shadow" tabIndex="-1">
               <li>
-                <a href="#about-section">About</a>
+                <a className="rounded-lg" href="#about-section">About</a>
               </li>
 
               <li>
-                <a href="#programs-section">Programs</a>
+                <a className="rounded-lg" href="#methodology-section">Methodology</a>
               </li>
 
               <li>
-                <a href="#methodology-section">Methodology</a>
+                <a className="rounded-lg" href="#programs-section">Programs</a>
               </li>
 
               <li>
-                <a href="campuses-section">Campuses</a>
+                <a className="rounded-lg" href="campuses-section">Campuses</a>
               </li>
             </ul>
           </nav>
@@ -39,35 +39,35 @@ function Header() {
           </a>
         </div>
 
-        <nav className="navbar-center hidden lg:flex">
+        <nav className="navbar-center hidden lg:mt-1 lg:flex justify-between items-center">
           {/* Menu */}
-          <ul className="menu menu-horizontal mt-1">
+          <ul className="menu menu-horizontal">
             <li>
-              <a href="#about-section">About</a>
+              <a className="rounded-lg" href="#about-section">About</a>
             </li>
 
             <li>
-              <a href="#programs-section">Programs</a>
+              <a className="rounded-lg" href="#methodology-section">Methodology</a>
             </li>
 
             <li>
-              <a href="#methodology-section">Methodology</a>
+              <a className="rounded-lg" href="#programs-section">Programs</a>
             </li>
 
             <li>
-              <a href="campuses-section">Campuses</a>
+              <a className="rounded-lg" href="campuses-section">Campuses</a>
             </li>
           </ul>
         </nav>
 
-        <div className="navbar-end">
+        <div className="navbar-end lg:mt-1">
           {/* Theme controller */}
           <label className="swap swap-rotate">
             <input type="checkbox" className="theme-controller" value="black" />
 
-            <Sun className="swap-on" size={18} />
+            <Sun className="swap-on" size={20} />
 
-            <Moon className="swap-off" size={18} />
+            <Moon className="swap-off" size={20} />
           </label>
         </div>
       </div>
