@@ -18,7 +18,7 @@ function About() {
             Holberton School is a Computer Science school founded in Silicon Valley to address the gap in the education system for aspiring software engineers.
           </p>
 
-          <a href="#" className="btn w-auto self-center text-white rounded border-none bg-violet-800 shadow-lg">
+          <a href="#methodology-section" className="btn w-auto self-center text-white rounded border-none bg-violet-800 shadow-lg">
             Discover the methodology
           </a>
         </div>

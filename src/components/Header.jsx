@@ -4,7 +4,7 @@ import holbertonLogo from "../assets/images/logo-holberton.webp";
 
 function Header() {
   return (
-    <header className="fixed w-full p-4 bg-base-100 shadow-xs z-50">
+    <header className="fixed w-full p-4 bg-base-200 shadow-xs z-50">
       <div className="container mx-auto flex flex-row justify-between items-center">
         <div className="navbar-start flex flex-row justify-between items-center gap-4">
           <nav className="dropdown">
@@ -28,7 +28,7 @@ function Header() {
               </li>
 
               <li>
-                <a className="rounded-lg" href="campuses-section">Campuses</a>
+                <a className="rounded-lg" href="#campuses-section">Campuses</a>
               </li>
             </ul>
           </nav>
@@ -55,7 +55,7 @@ function Header() {
             </li>
 
             <li>
-              <a className="rounded-lg" href="campuses-section">Campuses</a>
+              <a className="rounded-lg" href="#campuses-section">Campuses</a>
             </li>
           </ul>
         </nav>
