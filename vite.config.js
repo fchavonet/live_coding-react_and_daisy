@@ -4,6 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/live_coding-react_and_daisy/",
   plugins: [
     react(),
     tailwindcss()
