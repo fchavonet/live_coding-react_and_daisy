@@ -82,16 +82,6 @@ npm run dev
 
 You can also test the project online by clicking [here](https://fchavonet.github.io/live_coding-react_and_daisy/).
 
-![Screenshot]()
-
-<p align="center">
-    <picture>
-        <source media="(prefers-color-scheme: light)" srcset="">
-        <source media="(prefers-color-scheme: dark)" srcset="">
-        <img width="100%" src="" alt="Screenshot">
-    </picture>
-</p>
-
 <table align="center">
     <tr>
         <th align="center" style="text-align: center;">Desktop view</th>
