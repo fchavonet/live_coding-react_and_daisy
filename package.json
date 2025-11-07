@@ -14,9 +14,11 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.16",
+    "cobe": "^0.6.5",
     "lucide-react": "^0.552.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-spring": "^10.0.3",
     "tailwindcss": "^4.1.16"
   },
   "devDependencies": {

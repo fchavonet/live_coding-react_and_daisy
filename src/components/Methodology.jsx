@@ -1,17 +1,20 @@
 function Methodology() {
   return (
     <section id="methodology-section" className="w-full py-16 px-4 lg:py-24">
-      <div className="max-w-6xl mx-auto flex flex-col justify-center items-center gap-24">
-        <h2 className="text-6xl font-semibold text-center">Methodology</h2>
+      <div className="max-w-6xl mx-auto flex flex-col justify-center items-center lg:gap-24">
+        {/* Section title */}
+        <h2 className="mb-16 lg:mb-0 text-6xl font-semibold text-center">Methodology</h2>
 
+        {/* Timeline of learning principles */}
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+          {/* Step 1 — Learn by doing */}
           <li>
             <div className="timeline-middle">
               <svg
+                className="h-5 w-5"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
-                fill="currentColor"
-                className="h-5 w-5"
+                fill="#e31c3f"
               >
                 <path
                   fillRule="evenodd"
@@ -31,14 +34,15 @@ function Methodology() {
             <hr />
           </li>
 
+          {/* Step 2 — Learn from others */}
           <li>
             <hr />
             <div className="timeline-middle">
               <svg
+                className="h-5 w-5"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
-                fill="currentColor"
-                className="h-5 w-5"
+                fill="#e31c3f"
               >
                 <path
                   fillRule="evenodd"
@@ -58,14 +62,15 @@ function Methodology() {
             <hr />
           </li>
 
+          {/* Step 3 — Learn how to learn */}
           <li>
             <hr />
             <div className="timeline-middle">
               <svg
+                className="h-5 w-5"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
-                fill="currentColor"
-                className="h-5 w-5"
+                fill="#e31c3f"
               >
                 <path
                   fillRule="evenodd"

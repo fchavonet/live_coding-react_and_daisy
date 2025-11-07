@@ -3,3 +3,11 @@
 @plugin "daisyui" {
     themes: light --default, black;
 }
+
+.text-holberton {
+    color: #e31c3f;;
+}
+
+.bg-holberton {
+    background-color: #e31c3f;
+}
