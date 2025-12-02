@@ -14,7 +14,7 @@ This project serves as a reference for beginners looking to understand the found
 
 Watch the live coding sessions here:
 
-- Live coding session (FR) - *Coming soon*.
+- [Live coding session (FR)](https://www.youtube.com/watch?v=gn10dyt3KEA)
 
 ## Objectives
 
